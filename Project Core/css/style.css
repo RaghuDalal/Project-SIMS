@@ -1,6 +1,8 @@
 /* Theme color #E60017 */
 
-
+html {
+    scroll-behavior: smooth;
+  }
 .navbar-nav .nav-link {
     color: rgba(0, 0, 0, 1) !important;
 }
@@ -187,6 +189,9 @@ footer {
         text-shadow: 2px 2px 4px #000000;
         
     }
+
+
+    
 
 /* Media Queries */
 @media screen and (max-width: 768px) {
