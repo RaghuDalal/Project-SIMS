@@ -1,0 +1,39 @@
+/* Theme color #E60017 */
+
+
+.navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 1) !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #E60017!important;
+    transition: 1s;
+}
+
+
+body {
+    font-family: "Ubuntu" !important;
+}
+
+h3.sliderText {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+P.sliderText {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+p.helpline {
+    text-align: right;
+}
+span.headerText {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+@media screen and (max-width: 768px) {
+    p.helpline{
+        text-align: center;
+        font-size: small;
+    }
+}
