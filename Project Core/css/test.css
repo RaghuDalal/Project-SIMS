@@ -1,0 +1,71 @@
+		body
+		{
+			margin: 0px;
+			padding: 0px;
+			font-family: 'Ubuntu', sans-serif;
+		}
+		.classdiv
+		{
+			text-align: center;
+		}
+
+		.title
+		{
+			font-size: 5rem;
+		}
+
+		.classdiv hr
+		{
+			width: 10%;
+			height: 5px;
+			border: none;
+			outline: none;
+		    transition: 1s linear;
+		}
+
+		.classdiv div:hover hr
+		{
+			transform:  scaleX(6);	  
+		}
+
+		.container
+		{
+			font-family: 'Ubuntu';
+		}
+
+		.outer
+		{
+			color: black;
+			background-color: white;
+			text-align: left;
+			padding: 5px;
+			font-size: 1.3rem;
+			width: 50%;
+			border: 1px solid black;
+			margin-top: 20px;
+			border: none;
+		}
+
+		.open
+		{
+			padding: 1%;
+			width: 50%;
+			text-align: justify;
+			display: none;
+			list-style: none;
+		}
+		.searchicon
+		{
+			position: absolute;
+			top: 78%;
+			left: 85%;
+			color: #17a2b8;
+		}
+
+@media only screen and (max-width: 600px)
+{
+	.container
+	{
+		width: 100%;
+	}
+}
