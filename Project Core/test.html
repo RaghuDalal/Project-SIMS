@@ -119,6 +119,9 @@
 		{
 			$(".outer").click(function() 
 			{
+				$(".outer").dblclick(function(){
+					$(this).next().hide(1000)
+				});
 				$(this).next().show(1000)
 				$(this).siblings(".outer").next().hide(1000);
 			});
