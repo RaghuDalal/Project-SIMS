@@ -31,15 +31,21 @@
 
         <nav id="topNav" class="navbar  fixed-top navbar-expand-md  navbar-light shadow p-3 mb-5 bg-white rounded">
             <div class="container">
+
+                <!-- Logo -->
                 <a class="navbar-brand font-weight-bolder" href="index.html">
                     <img src=img/SIMS.png height="35" class="d-inline-block align-top " alt="SIMS Logo">
                     <span class="font-weight-bolder headerText textDecoration">S I M S</span>
                 </a>
+
+                <!-- Toggler -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse text-center" id="navbarNav">
+
+                    <!-- Links -->
                     <ul class="navbar-nav ml-auto font-weight-bold textDecoration">
                         <li class="nav-item">
                             <a class="nav-link" href="index.html">Home</a>
@@ -60,27 +66,25 @@
 
     </header>
 
-
+    <!-- Top Divider -->
     <hr class="mt-5">
-
-
 
     <!-- Heading -->
     <div class="container mt-5">
 
-
+        <!-- eClinic Heading -->
         <div class="row text-center">
-
             <div class="col-12">
                 <h1 class="display-1 font-weight-bolder heading d-inline-block textDecoration">e <h1
                         class="display-1 font-weight-bolder d-inline-block subHeading textDecoration">Clinic</h1>
                 </h1>
             </div>
         </div>
+
+        <!-- SubHeading -->
         <div class="row text-center">
             <div class="col-12">
                 <p class="lead font-weight-bolder textDecoration">Meet The Best Doctors From Anywhere In The World</p>
-
             </div>
         </div>
 
@@ -90,7 +94,7 @@
     <div class="container col-md-8 col-xs-12 text-center mt-4">
         <div class="card shadow">
             <div class="card-header bg-primary">
-                <h1 class="font-weight-bolder text-white" style="cursor: default;">Patient Login</h1>
+                <h1 class="font-weight-bolder text-white" style="cursor: default;">Patient Registration</h1>
             </div>
 
             <!-- Login Card -->
@@ -99,9 +103,44 @@
 
                     <div class="row justify-content-center">
                         <div class="col-md-5">
-                            <form method="POST">
-                                <div class="input-group ">
 
+                            <!-- Input Form -->
+                            <form method="POST">
+
+                                <!-- Name Input -->
+                                <div class="form-group font-weight-bolder text-left mt-4">
+                                    <label for="name" style="font-size: medium;">Name</label>
+                                    <input type="text" id="name" class="form-control font-weight-bolder"
+                                        placeholder="Please enter your full Name" aria-describedby="basic-addon2">
+                                </div>
+
+                                <!-- Email Input -->
+                                <div class="form-group mt-4 font-weight-bolder text-left">
+                                    <label for="email" style="font-size: medium;">Email</label>
+                                    <input type="email" id="email" class="form-control font-weight-bolder"
+                                        placeholder="Please enter your email" aria-describedby="basic-addon2">
+                                </div>
+
+                                <!-- Date of Birth Input -->
+                                <div class="form-group mt-4 font-weight-bolder text-left">
+                                    <label for="dob" style="font-size: medium;">Date of Birth</label>
+                                    <input type="date" id="dob" class="form-control font-weight-bolder"
+                                        placeholder="date of birth" aria-describedby="basic-addon2">
+                                </div>
+
+                                <!-- Gender Input -->
+                                <div class="form-group mt-4 font-weight-bolder text-left">
+                                    <label for="gender" style="font-size: medium;">Gender</label>
+                                    <select class="form-control font-weight-bolder" id="gender">
+                                        <option class="font-weight-bolder">Select</option>
+                                        <option class="font-weight-bolder">Male</option>
+                                        <option class="font-weight-bolder">Female</option>
+                                        <option class="font-weight-bolder">Other</option>
+                                    </select>
+                                </div>
+        
+                                <!-- Mobile Number Input -->
+                                <div class="input-group mt-4">
                                     <input type="number" class="form-control font-weight-bolder"
                                         placeholder="Mobile Number" aria-describedby="basic-addon2">
                                     <div class="input-group-append">
@@ -109,17 +148,22 @@
                                             OTP</button>
                                     </div>
                                 </div>
-                                <div class="form-group mt-3">
+
+                                <!-- OTP Input -->
+                                <div class="form-group mt-4">
 
                                     <input type="password" name="password" class="form-control font-weight-bolder"
                                         placeholder="Enter OTP">
                                 </div>
-                                <button type="submit" class="btn btn-danger font-weight-bolder">Login Now</button>
+
+                                <!-- Register Button -->
+                                <button type="submit" class="btn btn-danger font-weight-bolder">Register Now</button>
                             </form>
                             <hr>
-                            <div class="text-center font-weight-bolder" style="cursor: default;">
-                                Need an account? <a href="eClinicRegistration.html" style="font-family:Ubuntu">Sign Up
-                                    here</a>
+
+                            <!-- Login page redirect -->
+                            <div class="text-center font-weight-bolder">
+                                Already registered? <a href="eClinic.html">Login here</a>
                             </div>
                         </div>
                     </div>
@@ -129,12 +173,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-
 
 
 
@@ -150,14 +188,17 @@
             <div class="container">
 
                 <div class="row">
+
+                    <!-- About US -->
                     <div class="col-md-3 col-sm-6 col-xs-12 segment-one">
                         <h2 class="font-weight-bolder footerText textDecoration">About Us</h2>
                         <h5><b class="font-weight-bolder"> Sanskar Institute of Medical Sciences</b></h5>
                         <p>Model Town, Hisar, Haryana 125011</p>
                         <p><b>Emergency :</b> &nbsp; +91-999 999 9999</p>
                         <p><b>OPD Timings :</b> 9 AM - 11:30 AM and 4 PM - 7 PM(Mon - Sat)</p>
-
                     </div>
+
+                    <!-- Links -->
                     <div class="col-md-3 col-sm-6 col-xs-12 segment-two">
                         <h2 class="font-weight-bolder footerText textDecoration">Links</h2>
                         <div class="row"></div>
@@ -166,20 +207,19 @@
                             <li><a href="#">Link1</a></li>
                             <li><a href="#">Link2</a></li>
                             <li><a href="#">Link3</a></li>
-
-
                         </ul>
-
-
                     </div>
+
+                    <!-- Stay Container -->
                     <div class="col-md-3 col-sm-6 col-xs-12 segment-three">
                         <h2 class="font-weight-bolder footerText textDecoration">Stay Connected</h2>
                         <a href="#"><i class="fa fa-facebook"></i></a>
                         <a href="#"><i class="fa fa-twitter"></i></a>
                         <a href="#"><i class="fa fa-linkedin"></i></a>
                         <a href="#"><i class="fa fa-instagram"></i></a>
-
                     </div>
+
+                    <!-- Newsletter -->
                     <div class="col-md-3 col-sm-6 col-xs-12 segment-four">
                         <h2 class="font-weight-bolder footerText textDecoration">Newsletter</h2>
                         <p>Subscribe to my Newsletter to get the latest news</p>
@@ -187,7 +227,6 @@
                             <input style="padding: 10px;" type="email">
                             <input type="submit" value="Subscribe">
                         </form>
-
                     </div>
 
                 </div>
