@@ -11,10 +11,33 @@
     font-size: 20px;
     cursor: default;
 }
-.dr-name{
-    font-weight: bold;
-    font-size: 40px;
+.dr-img{
+    height: 200px;
+    width: 200px;
 }
+.doctor-container{
+    text-align: center
+}
+.dr-name{
+    font-size: 50px;
+}
+.dr-desc{
+font-size: 20px;
+}
+.dr-dep{
+    font-weight: bold;
+    font-size: 30px;
+}
+.dr-dep-desc{
+    font-size: 20px;
+}
+.book-appo{
+    font-size: 30px;
+}
+.book-appo-btn{
+    font-size: 20px;
+}
+
 
 /* Media Queries */
 @media screen and (max-width: 768px) {
@@ -29,7 +52,67 @@
     .find-doctor-1{
         font-size: 15px;
     }
-    
+    .dr-img{
+        height: 150px;
+        width: 150px;
+    }
+    .dr-name{
+        font-size: 30px;
+    }
+    .dr-desc{
+    font-size: 15px;
+    }
+    .dr-dep{
+        font-size: 25px;
+    }
+    .dr-dep-desc{
+        font-size: 16px;
+    }
+    .book-appo{
+        font-size: 20px;
+    }
+    .book-appo-btn{
+        font-size: 12.5px;
+    }
+
+
+}
+/* Media Queries */
+@media screen and (max-width: 992px) {
+    .our-doctors{
+        color: #000000;
+        font-size:50px;
+        text-shadow: none;
+    }
+    .find-doctor{
+        font-size: 25px;
+    }
+    .find-doctor-1{
+        font-size: 15px;
+    }
+    .dr-img{
+        height: 200px;
+        width: 200px;
+    }
+    .dr-name{
+        font-size: 30px;
+    }
+    .dr-desc{
+    font-size: 15px;
+    }
+    .dr-dep{
+        font-size: 22.5px;
+    }
+    .dr-dep-desc{
+        font-size: 15px;
+    }
+    .book-appo{
+        font-size: 20px;
+    }
+    .book-appo-btn{
+        font-size: 15px;
+    }
+
 }
 
 
