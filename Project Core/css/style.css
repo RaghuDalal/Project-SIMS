@@ -1,6 +1,8 @@
 /* Theme color #E60017 */
 
-
+html {
+    scroll-behavior: smooth;
+  }
 .navbar-nav .nav-link {
     color: rgba(0, 0, 0, 1) !important;
 }
@@ -167,8 +169,29 @@ footer {
     margin-bottom: auto;
 }
 
+/* Map */
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+    .mapText {
+        color: white;
+        text-shadow: 2px 2px 4px #000000;
+        
+    }
 
 
+    
 
 /* Media Queries */
 @media screen and (max-width: 768px) {
