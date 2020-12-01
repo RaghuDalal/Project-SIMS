@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Harsh is Here again -->
 
 <head>
   <!-- Meta -->
@@ -28,170 +27,179 @@
 <body>
 
 
-<!-- NavBar -->
- <header>
+  <!-- NavBar -->
+  <header>
 
     <nav id="topNav" class="navbar  fixed-top navbar-expand-md  navbar-light shadow p-3 mb-5 bg-white rounded">
       <div class="container">
+
+        <!-- Logo -->
         <a class="navbar-brand font-weight-bolder" href="index.html">
           <img src=img/SIMS.png height="35" class="d-inline-block align-top " alt="SIMS Logo">
-          <span class="font-weight-bolder headerText">S I M S</span>
+          <span class="font-weight-bolder headerText textDecoration">S I M S</span>
         </a>
+
+        <!-- Toggler -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse text-center" id="navbarNav">
-          <ul class="navbar-nav ml-auto font-weight-bold">
+
+          <!-- Links -->
+          <ul class="navbar-nav ml-auto font-weight-bold textDecoration">
             <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#" target="_blank">Doctors</a>
+              <a class="nav-link " href="Doctors.html">Doctors</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" target="_blank">Treatments</a>
+              <a class="nav-link" href="#">Treatments</a>
             </li>
             <li>
-              <a role="button" href="#" class="btn btn-danger">eClinic</a>
+              <a role="button" href="eClinic.html" class="btn btn-danger">eClinic</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-</header>
-<hr class="mt-5">
+  </header>
 
-<!-- Our Doctor Div -->
-<div class="container">
+  <!-- Top Divider -->
+  <hr class="mt-5">
+
+  <!-- Our Doctor Div -->
+  <div class="container">
     <div class="row mt-5">
-        <div class="col-12">
-            <p class="display-1 text-center our-doctors">Our Doctors</p>
+      <div class="col-12">
+        <p class="display-1 text-center our-doctors">Our Doctors</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Find Doctor Div -->
+  <div class="container m-auto">
+    <div class="row">
+      <div class="col-12 text-center bg-info text-light shadow rounded">
+        <p class="find-doctor">Find a Doctor</p>
+        <p class="find-doctor-1">Find the right health specialist from our list of doctors. You can also search by their
+          name to narrow down the list.</p>
+
+        <div class="input-group mb-3">
+          <input class="form-control" type="text" placeholder="Search By Doctor Name or Speciality">
+          <div class="input-group-append">
+            <button type="button" class="btn btn-danger">Search</button>
+          </div>
         </div>
+      </div>
     </div>
-</div>
+  </div>
 
-<!-- Find Doctor Div -->
-<div class="container m-auto">
-    <div class="row">
-        <div class="col-12 text-center bg-info text-light shadow rounded">
-            <p class="find-doctor">Find a Doctor</p>
-            <p class="find-doctor-1">Find the right health specialist from our list of doctors. You can also search by their name to narrow down the list.</p>
-      
-            <div class="input-group mb-3">
-                <input class="form-control" type="text" placeholder="Search By Doctor Name or Speciality">
-                <div class="input-group-append">
-                    <button  type="button" class="btn btn-danger">Search</button>
-                </div>
-              </div>
-        </div> 
-    </div>
-</div>
-
-<!-- Doctor-1 -->
-<div class="container mt-4 mb-4">
-<div class="container col-xs-12 bg-light shadow  mt-4 mb-3 p-3 doctor-container">
-    <div class="row">
+  <!-- Doctor-1 -->
+  <div class="container mt-4 mb-4">
+    <div class="container col-xs-12 bg-light shadow  mt-4 mb-3 p-3 doctor-container">
+      <div class="row">
         <div class="col-md-4 col-sm-12 mt-3">
-            <img src="img/doctor-1.jpg" class="img rounded-circle float-center dr-img" alt="Responsive image" >
+          <img src="img/doctor-1.jpg" class="img rounded-circle float-center dr-img" alt="Responsive image">
         </div>
 
         <div class="col-md-4 col-sm-12 mt-3 ">
-            <span class="dr-name">Dr. Aditi Shah</span>
-            <br>
-            <span class="dr-desc">Consultant - Pediatrics</span>
-            <br>
-            <br>
-            <span class="dr-dep">Department</span>
-            <br>
-            <span class="dr-dep-desc">Centre for Child Health</span>
+          <span class="dr-name">Dr. Aditi Shah</span>
+          <br>
+          <span class="dr-desc">Consultant - Pediatrics</span>
+          <br>
+          <br>
+          <span class="dr-dep">Department</span>
+          <br>
+          <span class="dr-dep-desc">Centre for Child Health</span>
         </div>
 
         <div class="col-md-4 col-sm-12 mt-3 book-appo-div d-flex flex-column align-items-center justify-content-center">
-            <div class="book-appo"><i class="fa fa-phone"></i>&nbsp +91 987654321</div><br>
-            <div><button class="btn btn-danger book-appo-btn">Book Appointment</button></div>
+          <div class="book-appo"><i class="fa fa-phone"></i>&nbsp +91 987654321</div><br>
+          <div><button class="btn btn-danger book-appo-btn">Book Appointment</button></div>
         </div>
+      </div>
     </div>
-</div>
 
 
-<!-- Doctor-2 -->
-<div class="container col-xs-12 bg-light shadow  mt-4 mb-3 p-3 doctor-container">
-    <div class="row">
+    <!-- Doctor-2 -->
+    <div class="container col-xs-12 bg-light shadow  mt-4 mb-3 p-3 doctor-container">
+      <div class="row">
         <div class="col-md-4 col-sm-12 mt-3">
-            <img src="img/doctor-2.jpg" class="img rounded-circle float-center dr-img" alt="Responsive image" >
+          <img src="img/doctor-2.jpg" class="img rounded-circle float-center dr-img" alt="Responsive image">
         </div>
 
         <div class="col-md-4 col-sm-12 mt-3 ">
-            <span class="dr-name">Dr. Amit Joshi</span>
-            <br>
-            <span class="dr-desc">Senior Consultant Surgical Oncologist</span>
-            <br>
-            <br>
-            <span class="dr-dep">Department</span>
-            <br>
-            <span class="dr-dep-desc">Cancer Centre</span>
+          <span class="dr-name">Dr. Amit Joshi</span>
+          <br>
+          <span class="dr-desc">Senior Consultant Surgical Oncologist</span>
+          <br>
+          <br>
+          <span class="dr-dep">Department</span>
+          <br>
+          <span class="dr-dep-desc">Cancer Centre</span>
         </div>
 
         <div class="col-md-4 col-sm-12 mt-3 book-appo-div d-flex flex-column align-items-center justify-content-center">
-            <div class="book-appo"><i class="fa fa-phone"></i>&nbsp +91 987654321</div><br>
-            <div><button class="btn btn-danger book-appo-btn">Book Appointment</button></div>
+          <div class="book-appo"><i class="fa fa-phone"></i>&nbsp +91 987654321</div><br>
+          <div><button class="btn btn-danger book-appo-btn">Book Appointment</button></div>
         </div>
+      </div>
     </div>
-</div>
 
 
-<!-- Doctor-3 -->
-<div class="container col-xs-12 bg-light shadow  mt-4 mb-3 p-3 doctor-container">
-    <div class="row">
+    <!-- Doctor-3 -->
+    <div class="container col-xs-12 bg-light shadow  mt-4 mb-3 p-3 doctor-container">
+      <div class="row">
         <div class="col-md-4 col-sm-12 mt-3">
-            <img src="img/doctor-3.jpg" class="img rounded-circle float-center dr-img" alt="Responsive image" >
+          <img src="img/doctor-3.jpg" class="img rounded-circle float-center dr-img" alt="Responsive image">
         </div>
 
         <div class="col-md-4 col-sm-12 mt-3 ">
-            <span class="dr-name">Dr. Ankur Garg</span>
-            <br>
-            <span class="dr-desc">Head & Sr Consultant - HPB<br>Surgery & Liver transplant</span>
-            <br>
-            <br>
-            <span class="dr-dep">Department</span>
-            <br>
-            <span class="dr-dep-desc">Centre for Hepato-Pancreatic-Biliary Surgery & Liver Transplant</span>
+          <span class="dr-name">Dr. Ankur Garg</span>
+          <br>
+          <span class="dr-desc">Head & Sr Consultant - HPB<br>Surgery & Liver transplant</span>
+          <br>
+          <br>
+          <span class="dr-dep">Department</span>
+          <br>
+          <span class="dr-dep-desc">Centre for Hepato-Pancreatic-Biliary Surgery & Liver Transplant</span>
         </div>
 
         <div class="col-md-4 col-sm-12 mt-3 book-appo-div d-flex flex-column align-items-center justify-content-center">
-            <div class="book-appo"><i class="fa fa-phone"></i>&nbsp +91 987654321</div><br>
-            <div><button class="btn btn-danger book-appo-btn">Book Appointment</button></div>
+          <div class="book-appo"><i class="fa fa-phone"></i>&nbsp +91 987654321</div><br>
+          <div><button class="btn btn-danger book-appo-btn">Book Appointment</button></div>
         </div>
+      </div>
     </div>
-</div>
 
-<!-- Doctor-4 -->
-<div class="container col-xs-12 bg-light shadow  mt-4 mb-3 p-3 doctor-container">
-    <div class="row">
+    <!-- Doctor-4 -->
+    <div class="container col-xs-12 bg-light shadow  mt-4 mb-3 p-3 doctor-container">
+      <div class="row">
         <div class="col-md-4 col-sm-12 mt-3">
-            <img src="img/doctor-4.jpg" class="img rounded-circle float-center dr-img" alt="Responsive image" >
+          <img src="img/doctor-4.jpg" class="img rounded-circle float-center dr-img" alt="Responsive image">
         </div>
 
         <div class="col-md-4 col-sm-12 mt-3 ">
-            <span class="dr-name">Dr. Anjali Patki</span>
-            <br>
-            <span class="dr-desc">Consultant - Anaesthesiology</span>
-            <br>
-            <br>
-            <span class="dr-dep">Department</span>
-            <br>
-            <span class="dr-dep-desc">Anaesthesiology & Pain Management</span>
+          <span class="dr-name">Dr. Anjali Patki</span>
+          <br>
+          <span class="dr-desc">Consultant - Anaesthesiology</span>
+          <br>
+          <br>
+          <span class="dr-dep">Department</span>
+          <br>
+          <span class="dr-dep-desc">Anaesthesiology & Pain Management</span>
         </div>
 
         <div class="col-md-4 col-sm-12 mt-3 book-appo-div d-flex flex-column align-items-center justify-content-center">
-            <div class="book-appo"><i class="fa fa-phone"></i>&nbsp +91 987654321</div><br>
-            <div><button class="btn btn-danger book-appo-btn">Book Appointment</button></div>
+          <div class="book-appo"><i class="fa fa-phone"></i>&nbsp +91 987654321</div><br>
+          <div><button class="btn btn-danger book-appo-btn">Book Appointment</button></div>
         </div>
+      </div>
     </div>
-</div>
-</div>
+  </div>
 
 
 
@@ -208,38 +216,40 @@
       <div class="container">
 
         <div class="row">
+
+          <!-- About US -->
           <div class="col-md-3 col-sm-6 col-xs-12 segment-one">
-            <h2 class="font-weight-bolder footerText" style="cursor: default;">About Us</h2>
+            <h2 class="font-weight-bolder footerText textDecoration">About Us</h2>
             <h5><b class="font-weight-bolder"> Sanskar Institute of Medical Sciences</b></h5>
             <p>Model Town, Hisar, Haryana 125011</p>
             <p><b>Emergency :</b> &nbsp; +91-999 999 9999</p>
             <p><b>OPD Timings :</b> 9 AM - 11:30 AM and 4 PM - 7 PM(Mon - Sat)</p>
-
           </div>
+
+          <!-- Links -->
           <div class="col-md-3 col-sm-6 col-xs-12 segment-two">
-            <h2 class="font-weight-bolder footerText" style="cursor: default;">Links</h2>
+            <h2 class="font-weight-bolder footerText textDecoration">Links</h2>
             <div class="row"></div>
             <ul>
               <li><a href="#">Link</a></li>
               <li><a href="#">Link1</a></li>
               <li><a href="#">Link2</a></li>
               <li><a href="#">Link3</a></li>
-
-
             </ul>
-
-
           </div>
+
+          <!-- Stay Connected -->
           <div class="col-md-3 col-sm-6 col-xs-12 segment-three">
-            <h2 class="font-weight-bolder footerText" style="cursor: default;">Stay Connected</h2>
+            <h2 class="font-weight-bolder footerText textDecoration">Stay Connected</h2>
             <a href="#"><i class="fa fa-facebook"></i></a>
             <a href="#"><i class="fa fa-twitter"></i></a>
             <a href="#"><i class="fa fa-linkedin"></i></a>
             <a href="#"><i class="fa fa-instagram"></i></a>
-
           </div>
+
+          <!-- Newsletter -->
           <div class="col-md-3 col-sm-6 col-xs-12 segment-four">
-            <h2 class="font-weight-bolder footerText" style="cursor: default;">Newsletter</h2>
+            <h2 class="font-weight-bolder footerText textDecoration">Newsletter</h2>
             <p>Subscribe to my Newsletter to get the latest news</p>
             <form>
               <input style="padding: 10px;" type="email">
@@ -254,18 +264,18 @@
     </div>
   </footer>
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  
-    <!-- Custom JS -->
-    <script src="js/script.js"></script>
-  
-  </body>
-  
-  </html>
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
