@@ -34,6 +34,18 @@ span.headerText {
     text-shadow: 2px 2px 4px #000000;
 }
 
+
+/* Heading */
+
+.heading {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.subHeading {
+    color: red;
+    text-shadow: 2px 2px 4px #000000;
+}
 /* Footer */
 
 .footer-top {
@@ -224,5 +236,7 @@ footer {
     footer {
         margin-bottom: 20px;
     }
+
+    
     
 }
