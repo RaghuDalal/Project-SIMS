@@ -237,6 +237,16 @@ footer {
         margin-bottom: 20px;
     }
 
+    .inputText {
+        font-weight: normal;
+        font-size: small;
+    }
+
+    .loginH1 {
+        font-weight: normal;
+        font-size: 28px;
+    }
+
     
     
 }
