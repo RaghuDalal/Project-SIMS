@@ -9,7 +9,6 @@ body {
 /* Toggle Styles */
 
 #viewport {
-  padding-left: 250px;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -17,6 +16,7 @@ body {
 }
 
 #content {
+  border: 2px solid green;
   width: 100%;
   position: relative;
   margin-right: 0;
@@ -76,3 +76,4 @@ body {
 
 
 /*right bar*/
+
