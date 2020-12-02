@@ -1,3 +1,7 @@
+.side-bar{
+    height: 89.5vh; 
+}
+
 .container
 {
     user-select: none;
@@ -309,16 +313,11 @@ body {
 .doctor-container{
     text-align: center
 }
-.dr-name{
-    font-size: 50px;
-}
+
 .dr-desc{
 font-size: 20px;
 }
-.dr-dep{
-    font-weight: bold;
-    font-size: 30px;
-}
+
 .dr-dep-desc{
     font-size: 20px;
 }
