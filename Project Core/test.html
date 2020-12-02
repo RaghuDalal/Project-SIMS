@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Tests</title>
+<<<<<<< HEAD:Project Core/test.html
 
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="css/test.css">
@@ -26,9 +27,36 @@
 
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+=======
+	<link rel="stylesheet" type="text/css" href="css/test.css">
+
+	<!-- Ajax -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+	<!-- bootstrap -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+	<!-- Ubuntu font -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+>>>>>>> 05dbb7b3b3df702b52f85a95da8ef1373d17135a:Project Core/tester.html
 </head>
 <body>
+   <!-- NavBar -->
+  <header>
 
+	    <nav id="topNav" class="navbar  fixed-top navbar-expand-md  navbar-light shadow p-3 mb-5 bg-white rounded">
+	      <div class="container">
+
+	        <!-- Logo -->
+	        <a class="navbar-brand font-weight-bolder" href="index.html">
+	          <img src=img/SIMS.png height="35" class="d-inline-block align-top " alt="SIMS Logo">
+	          <span class="font-weight-bolder headerText textDecoration">S I M S</span>
+	        </a>
+
+<<<<<<< HEAD:Project Core/test.html
  <!-- NavBar -->
  <header>
     <nav id="topNav" class="navbar  fixed-top navbar-expand-md  navbar-light shadow p-3 mb-5 bg-white rounded">
@@ -77,29 +105,72 @@
 	<div class="container mt-4">
 		<div class="row">
 			<div class="col-md-12">
+=======
+	        <!-- Toggler -->
+	        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+	          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	          <span class="navbar-toggler-icon"></span>
+	        </button>
+	        <div class="collapse navbar-collapse text-center" id="navbarNav">
+>>>>>>> 05dbb7b3b3df702b52f85a95da8ef1373d17135a:Project Core/tester.html
 
-				<div class="container classdiv">
+	          <!-- Links -->
+	          <ul class="navbar-nav ml-auto font-weight-bolder textDecoration">
+	            <li class="nav-item">
+	              <a class="nav-link" href="index.html">Home</a>
+	            </li>
+	            <li class="nav-item">
+	              <a class="nav-link " href="Doctors.html">Doctors</a>
+	            </li>
+	            <li class="nav-item">
+	              <a class="nav-link" href="treatment.html">Treatments</a>
+	            </li>
+	            <li class="nav-item">
+	              <a class="nav-link" href="tester.html" >Tests</a>
+	            </li>
+	            <li>
+	              <a role="button" href="eClinic.html" class="btn btn-danger">eClinic</a>
+	            </li>
+	          </ul>
+	        </div>
+	      </div>
+	    </nav>
+  </header>
+
+ <!-- test section -->
+<div class="container">
+	<div class="row mt-5">
+		<div class="col-md-12 mt-5">
+
+			<div class="container classdiv">
 					<div class="row">
 						<div class="col-md-12">
 							<p class="title">List of Tests</p>
 							<hr class="bg-info">
 						</div>
 					</div>
-				</div>
+			</div>
 
-				<div class="bg-info d-flex flex-column align-items-center justify-content-center bg-info text-light shadow-lg p-5 mb-5 bg-info rounded">
-					<div class="row">
-						<div class="col-12">
-							<h1 class="text-white mt-0 mb-5 text-center">Find Tests</h1>
-							<div class="md-form">
-							  <input placeholder="Search Your Test..." type="text" id="inputPlaceholderEx" class="form-control">
-							  <span class="glyphicon glyphicon-search searchicon"></span>
-							</div>
-						</div>
-					</div>
-				</div>
+				<!-- Find test -->	
+			<div class="container">
+				    <div class="container m-auto">
+					    <div class="row">
+						    <div class="col-12 text-center bg-info text-light shadow rounded">
+						      <p class="h3">Find Tests</p>
+						      <p class="find-doctor-1 ">Get details of your required test from the list.</p>
 
-				<div class="col-md-12 d-flex flex-column align-items-center justify-content-center text-light" style="user-select: none; cursor: default;">
+						        <div class="input-group mb-4 d-flex justify-content-center ">
+						            <input class="form-control search-input " style="max-width: 700px;"type="text" placeholder="Search By Test Name">
+						            <div class="input-group-append">
+						              <button type="button" class="btn btn-danger search-btn ">Search</button>
+						            </div>
+						        </div>
+						    </div>
+					    </div>
+				    </div>
+			</div>
+
+			<div class="col-md-12 d-flex flex-column align-items-center justify-content-center text-light" >
 						<div class="container outer bg-light  rounded shadow">
 						<div class="row">
 							<div class="col-md-4 d-flex  align-items-center justify-content-center">Blood Test (CBC)</div> 
@@ -174,20 +245,18 @@
 
 					
 				</div>
-			</div>
 		</div>
 	</div>
-<script type="text/javascript">
+</div>
 
+
+<!-- JQuery -->
+<script type="text/javascript">
 		$(document).ready(function() 
 		{
 			$(".outer").click(function() 
 			{
-				$(this).dblclick(function()
-				{
-					$(this).next().hide(1000)
-				})
-				$(this).next().show(1000)
+				$(this).next().toggle(1000)
 				$(this).siblings(".outer").next().hide(1000);
 			});
 		});

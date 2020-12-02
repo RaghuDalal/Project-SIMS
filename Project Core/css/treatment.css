@@ -9,7 +9,6 @@ body {
 /* Toggle Styles */
 
 #viewport {
-  padding-left: 250px;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -17,6 +16,7 @@ body {
 }
 
 #content {
+  border: 2px solid green;
   width: 100%;
   position: relative;
   margin-right: 0;
@@ -77,6 +77,7 @@ body {
 
 /*right bar*/
 
+<<<<<<< HEAD
 
 html {
     scroll-behavior: smooth;
@@ -304,3 +305,5 @@ footer {
     }
     
 }
+=======
+>>>>>>> 05dbb7b3b3df702b52f85a95da8ef1373d17135a
