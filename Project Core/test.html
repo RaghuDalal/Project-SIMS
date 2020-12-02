@@ -2,25 +2,86 @@
 <html>
 <head>
 	<title>Tests</title>
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/test.css">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+	<!-- Ubuntu Fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+
+	<!-- Icon Logo -->
+	<link class="logo" rel="icon" type="image/png" href="img/SIMS.png">
+
+	<!-- FontAwesome Library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- jQuery library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/test.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
 </head>
 <body>
 
-	<div class="container">
+ <!-- NavBar -->
+ <header>
+    <nav id="topNav" class="navbar  fixed-top navbar-expand-md  navbar-light shadow p-3 mb-5 bg-white rounded">
+      <div class="container">
+
+        <!-- Logo -->
+        <a class="navbar-brand font-weight-bolder" href="index.html">
+          <img src=img/SIMS.png height="35" class="d-inline-block align-top " alt="SIMS Logo">
+          <span class="font-weight-bolder headerText textDecoration">S I M S</span>
+        </a>
+
+        <!-- Toggler -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarNav">
+
+          <!-- Links -->
+          <ul class="navbar-nav ml-auto font-weight-bold textDecoration">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="Doctors.html">Doctors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="treatment.html">Treatments</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="test.html">Lab Tests</a>
+            </li>
+            <li>
+              <a role="button" href="eClinic.html" class="btn btn-danger">eClinic</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <!-- Top Divider -->
+  <hr class="mt-5">
+   
+	<div class="container mt-4">
 		<div class="row">
 			<div class="col-md-12">
 
 				<div class="container classdiv">
 					<div class="row">
 						<div class="col-md-12">
-							<h1 class="title">List of Tests</h1>
+							<p class="title">List of Tests</p>
 							<hr class="bg-info">
 						</div>
 					</div>
@@ -131,5 +192,6 @@
 			});
 		});
 </script>
+
 </body>
 </html>
