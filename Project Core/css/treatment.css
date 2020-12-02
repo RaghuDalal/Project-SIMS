@@ -1,6 +1,4 @@
-.side-bar{
-    height: 89.5vh; 
-}
+
 
 .container
 {
@@ -622,7 +620,6 @@ footer {
     }
 
 
-    
 
 /* Media Queries */
 @media screen and (max-width: 768px) {
@@ -652,7 +649,39 @@ footer {
     
 }
 
-@media screen and (min-width: 1000px)
+.side-bar
 {
-    
+    display: block;
+    position: fixed;
+    z-index: 1;
+}   
+
+.side-bar a:hover
+{
+    color: black;
+    text-decoration: none;
+    background-color: #EEE;
+} 
+
+.small-side-bar
+{
+    display: none;
 }
+
+
+@media screen and (max-width: 769px)
+{
+    .side-bar
+    {
+        display: none;
+    }
+
+    .small-side-bar
+    {
+        display: block;
+    }
+}
+
+
+
+
