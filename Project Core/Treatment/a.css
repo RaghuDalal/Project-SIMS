@@ -1,0 +1,659 @@
+.container
+{
+    user-select: none;
+}
+
+/* Theme color #E60017 */
+
+html {
+    scroll-behavior: smooth;
+  }
+.navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 1) !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #E60017!important;
+    transition: 1s;
+}
+
+
+body {
+    font-family: "Ubuntu" !important;
+}
+
+h3.sliderText {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+P.sliderText {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+p.helpline {
+    text-align: right;
+}
+span.headerText {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+
+/* Heading */
+
+.heading {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.subHeading {
+    color: red;
+    text-shadow: 2px 2px 4px #000000;
+}
+/* Footer */
+
+.footer-top {
+    margin-top: 5px;
+    background-color: white;
+    padding: 80px;
+}
+
+.segment-one h2 {
+    font-family: "Ubuntu";
+    text-transform: uppercase;
+}
+
+.segment-one h2:before {
+    content: '|';
+    color: #E60017;
+    padding-right: 10px;
+}
+
+.segment-two h2 {
+    font-family: "Ubuntu";
+    text-transform: uppercase;
+
+
+}
+
+.segment-two h2:before {
+    content: '|';
+    color: #E60017;
+    padding-right: 10px;
+}
+
+.segment-two ul {
+    list-style-type: circle;
+}
+
+.segment-two ul li {
+    line-height: 40px;
+}
+
+.segment-two ul li a {
+    color: #0069d9;
+    text-decoration: none;
+}
+
+.segment-two ul li a:hover {
+    color: #E60017 !important;
+
+}
+
+.segment-three h2 {
+    font-family: "Ubuntu";
+    text-transform: uppercase;
+
+}
+
+.segment-three h2:before {
+    content: '|';
+    color: #E60017;
+    padding-right: 10px;
+}
+
+.segment-three a {
+    background: #0069d9;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.segment-three a i {
+    font-size: 20px;
+    color: white;
+    padding: 10px 12px;
+}
+
+.segment-four h2 {
+    font-family: "Ubuntu";
+    text-transform: uppercase;
+
+}
+
+.segment-four h2:before {
+    content: '|';
+    color: #E60017;
+    padding-right: 10px;
+}
+
+.segment-four form input[type="email"] {
+    outline: none;
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 150px;
+    height: 40px;
+    border-color: grey;
+}
+
+.segment-four form input[type="email"]:focus {
+    outline: none;
+    border: 1px solid rgba(81, 203, 238, 1);
+    border-radius: 50px;
+    width: 150px;
+    height: 40px;
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+
+.segment-four form input[type="submit"] {
+    outline: none;
+    background: #0069d9;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    height: 40px;
+}
+
+.segment-four form input[type="submit"]:focus {
+    outline: none;
+    background: #0069d9;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    height: 40px;
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+
+}
+
+.footerText {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+footer {
+    margin-bottom: auto;
+}
+
+/* Map */
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+    .mapText {
+        color: white;
+        text-shadow: 2px 2px 4px #000000;
+        
+    }
+
+    /* Text Cursor and User select */
+    .textDecoration {
+        cursor: default;
+        user-select: none;
+    }
+
+
+    
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    p.helpline{
+        text-align: center;
+        font-size: small;
+    }
+
+    .footerText {
+        color: #000000;
+        text-align: left;
+        font-size: medium;
+        text-shadow: none;
+    }
+
+    .segment-four {
+        margin-top: 25px;
+    }
+    .footer-top {
+        margin-top: 0px;
+        padding: 0;
+    }
+
+    footer {
+        margin-bottom: 20px;
+    }
+
+    .inputText {
+        font-weight: normal;
+        font-size: small;
+    }
+
+    .loginH1 {
+        font-weight: normal;
+        font-size: 28px;
+    }
+
+    
+    
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+
+body {
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+/* Toggle Styles */
+
+.nav a{
+  text-decoration: none; 
+  border-bottom: 1px solid #455A64;
+  color: black;
+  font-size: 14px;
+  padding: 16px 24px;
+}
+
+.nav a:hover{
+  color: #ECEFF1;
+}
+
+.nav a i{
+  margin-right: 16px;
+}
+
+.leftbar
+{
+    overflow-x: hidden;
+    position: fixed;
+    z-index: 1;
+}
+
+/*right bar*/
+.our-doctors{
+ cursor: default;
+ user-select: none;
+}
+
+.find-doctor{
+    font-size: 40px;
+    cursor: default;
+}
+.find-doctor-1{
+    font-size: 20px;
+    cursor: default;
+}
+.dr-img{
+    height: 200px;
+    width: 200px;
+}
+.doctor-container{
+    text-align: center
+}
+.dr-name{
+    font-size: 50px;
+}
+.dr-desc{
+font-size: 20px;
+}
+.dr-dep{
+    font-weight: bold;
+    font-size: 30px;
+}
+.dr-dep-desc{
+    font-size: 20px;
+}
+.book-appo{
+    font-size: 30px;
+    font-weight: bold;
+}
+.book-appo-btn{
+    font-size: 20px;
+    font-weight: bold;
+}
+.search-input{
+    font-weight: bold; 
+}
+.search-btn{
+    font-weight: bold;  
+}
+
+
+
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .our-doctors{
+        color: #000000;
+        font-size:50px;
+        text-shadow: none;
+    }
+    .find-doctor{
+        font-size: 30px;
+    }
+    .find-doctor-1{
+        font-size: 15px;
+    }
+    .dr-img{
+        height: 150px;
+        width: 150px;
+    }
+    .dr-name{
+        font-size: 30px;
+    }
+    .dr-desc{
+    font-size: 15px;
+    }
+    .dr-dep{
+        font-size: 25px;
+    }
+    .dr-dep-desc{
+        font-size: 16px;
+    }
+    .book-appo{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .book-appo-btn{
+        font-size: 12.5px;
+        font-weight: bold;
+    }
+
+
+}
+/* Media Queries */
+@media screen and (max-width: 992px) {
+    .our-doctors{
+        color: #000000;
+        font-size:50px;
+        text-shadow: none;
+    }
+    .find-doctor{
+        font-size: 25px;
+    }
+    .find-doctor-1{
+        font-size: 15px;
+    }
+    .dr-img{
+        height: 200px;
+        width: 200px;
+    }
+    .dr-name{
+        font-size: 30px;
+    }
+    .dr-desc{
+    font-size: 15px;
+    }
+    .dr-dep{
+        font-size: 22.5px;
+    }
+    .dr-dep-desc{
+        font-size: 15px;
+    }
+    .book-appo{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .book-appo-btn{
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+}
+
+
+
+
+/* HomePage */
+/* Theme color #E60017 */
+
+html {
+    scroll-behavior: smooth;
+  }
+.navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 1) !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #E60017!important;
+    transition: 1s;
+}
+
+/* Text Cursor and User select */
+.textDecoration {
+    cursor: default;
+    user-select: none;
+}
+
+
+body {
+    font-family: "Ubuntu" !important;
+}
+
+h3.sliderText {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+P.sliderText {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+p.helpline {
+    text-align: right;
+}
+span.headerText {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/* Footer */
+
+.footer-top {
+    margin-top: 5px;
+    background-color: white;
+    padding: 80px;
+}
+
+.segment-one h2 {
+    font-family: "Ubuntu";
+    text-transform: uppercase;
+}
+
+.segment-one h2:before {
+    content: '|';
+    color: #E60017;
+    padding-right: 10px;
+}
+
+.segment-two h2 {
+    font-family: "Ubuntu";
+    text-transform: uppercase;
+
+
+}
+
+.segment-two h2:before {
+    content: '|';
+    color: #E60017;
+    padding-right: 10px;
+}
+
+.segment-two ul {
+    list-style-type: circle;
+}
+
+.segment-two ul li {
+    line-height: 40px;
+}
+
+.segment-two ul li a {
+    color: #0069d9;
+    text-decoration: none;
+}
+
+.segment-two ul li a:hover {
+    color: #E60017 !important;
+
+}
+
+.segment-three h2 {
+    font-family: "Ubuntu";
+    text-transform: uppercase;
+
+}
+
+.segment-three h2:before {
+    content: '|';
+    color: #E60017;
+    padding-right: 10px;
+}
+
+.segment-three a {
+    background: #0069d9;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.segment-three a i {
+    font-size: 20px;
+    color: white;
+    padding: 10px 12px;
+}
+
+.segment-four h2 {
+    font-family: "Ubuntu";
+    text-transform: uppercase;
+
+}
+
+.segment-four h2:before {
+    content: '|';
+    color: #E60017;
+    padding-right: 10px;
+}
+
+.segment-four form input[type="email"] {
+    outline: none;
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 150px;
+    height: 40px;
+    border-color: grey;
+}
+
+.segment-four form input[type="email"]:focus {
+    outline: none;
+    border: 1px solid rgba(81, 203, 238, 1);
+    border-radius: 50px;
+    width: 150px;
+    height: 40px;
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+
+.segment-four form input[type="submit"] {
+    outline: none;
+    background: #0069d9;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    height: 40px;
+}
+
+.segment-four form input[type="submit"]:focus {
+    outline: none;
+    background: #0069d9;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    height: 40px;
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+
+}
+
+.footerText {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+footer {
+    margin-bottom: auto;
+}
+
+/* Map */
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+    .mapText {
+        color: white;
+        text-shadow: 2px 2px 4px #000000;
+        
+    }
+
+
+    
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    p.helpline{
+        text-align: center;
+        font-size: small;
+    }
+
+    .footerText {
+        color: #000000;
+        text-align: left;
+        font-size: medium;
+        text-shadow: none;
+    }
+
+    .segment-four {
+        margin-top: 25px;
+    }
+    .footer-top {
+        margin-top: 0px;
+        padding: 0;
+    }
+
+    footer {
+        margin-bottom: 20px;
+    }
+    
+}
+
+@media screen and (min-width: 1000px)
+{
+    
+}

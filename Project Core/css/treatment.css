@@ -9,7 +9,6 @@ body {
 /* Toggle Styles */
 
 #viewport {
-  padding-left: 250px;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -17,6 +16,7 @@ body {
 }
 
 #content {
+  border: 2px solid green;
   width: 100%;
   position: relative;
   margin-right: 0;
@@ -76,3 +76,234 @@ body {
 
 
 /*right bar*/
+
+<<<<<<< HEAD
+
+html {
+    scroll-behavior: smooth;
+  }
+.navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 1) !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #E60017!important;
+    transition: 1s;
+}
+
+/* Text Cursor and User select */
+.textDecoration {
+    cursor: default;
+    user-select: none;
+}
+
+
+body {
+    font-family: "Ubuntu" !important;
+}
+
+h3.sliderText {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+P.sliderText {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+p.helpline {
+    text-align: right;
+}
+span.headerText {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/* Footer */
+
+.footer-top {
+    margin-top: 5px;
+    background-color: white;
+    padding: 80px;
+}
+
+.segment-one h2 {
+    font-family: "Ubuntu";
+    text-transform: uppercase;
+}
+
+.segment-one h2:before {
+    content: '|';
+    color: #E60017;
+    padding-right: 10px;
+}
+
+.segment-two h2 {
+    font-family: "Ubuntu";
+    text-transform: uppercase;
+
+
+}
+
+.segment-two h2:before {
+    content: '|';
+    color: #E60017;
+    padding-right: 10px;
+}
+
+.segment-two ul {
+    list-style-type: circle;
+}
+
+.segment-two ul li {
+    line-height: 40px;
+}
+
+.segment-two ul li a {
+    color: #0069d9;
+    text-decoration: none;
+}
+
+.segment-two ul li a:hover {
+    color: #E60017 !important;
+
+}
+
+.segment-three h2 {
+    font-family: "Ubuntu";
+    text-transform: uppercase;
+
+}
+
+.segment-three h2:before {
+    content: '|';
+    color: #E60017;
+    padding-right: 10px;
+}
+
+.segment-three a {
+    background: #0069d9;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.segment-three a i {
+    font-size: 20px;
+    color: white;
+    padding: 10px 12px;
+}
+
+.segment-four h2 {
+    font-family: "Ubuntu";
+    text-transform: uppercase;
+
+}
+
+.segment-four h2:before {
+    content: '|';
+    color: #E60017;
+    padding-right: 10px;
+}
+
+.segment-four form input[type="email"] {
+    outline: none;
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 150px;
+    height: 40px;
+    border-color: grey;
+}
+
+.segment-four form input[type="email"]:focus {
+    outline: none;
+    border: 1px solid rgba(81, 203, 238, 1);
+    border-radius: 50px;
+    width: 150px;
+    height: 40px;
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+
+.segment-four form input[type="submit"] {
+    outline: none;
+    background: #0069d9;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    height: 40px;
+}
+
+.segment-four form input[type="submit"]:focus {
+    outline: none;
+    background: #0069d9;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    height: 40px;
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+
+}
+
+.footerText {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+footer {
+    margin-bottom: auto;
+}
+
+/* Map */
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+    .mapText {
+        color: white;
+        text-shadow: 2px 2px 4px #000000;
+        
+    }
+
+
+    
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    p.helpline{
+        text-align: center;
+        font-size: small;
+    }
+
+    .footerText {
+        color: #000000;
+        text-align: left;
+        font-size: medium;
+        text-shadow: none;
+    }
+
+    .segment-four {
+        margin-top: 25px;
+    }
+    .footer-top {
+        margin-top: 0px;
+        padding: 0;
+    }
+
+    footer {
+        margin-bottom: 20px;
+    }
+    
+}
+=======
+>>>>>>> 05dbb7b3b3df702b52f85a95da8ef1373d17135a
