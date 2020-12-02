@@ -359,5 +359,67 @@ footer {
     footer {
         margin-bottom: 20px;
     }
-    
+    /* Harsh Footer */
+    .segment-one h2{
+        margin-top: 10px;
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .segment-one h5{
+        font-size: 17px;
+        font-weight: bold;
+        width: 100%;
+        text-align: center;
+    }
+    .segment-one .sims-adddress{
+        font-size: 15px;
+    }
+    .segment-one .sims-number{
+        margin-top: -10px;
+        font-size: 15px;
+    }
+    .segment-one .sims-time{
+        font-size: 17px;
+    }
+    .segment-one .sims-time-1{
+        font-size: 15px;
+    }
+
+    .segment-two h2{
+        margin-top: 10px;
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .segment-two ul{
+        margin-top: -17.5px;
+        margin-bottom: -10px;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; 
+     
+    }
+    .segment-two ul li{
+        margin: 12.5px;
+    }
+
+    .segment-three h2{
+        margin-top: 10px;
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .segment-three .follow-links{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .segment-three .follow-links a{
+        margin-top: 10px;
+        margin-left: 15px;
+    }
 }
