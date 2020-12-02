@@ -1,244 +1,194 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-	<title>Tests</title>
 
-	<!-- Custom CSS -->
-	<link rel="stylesheet" href="css/test.css">
+<!-- Meta -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<title>Lab Tests</title>
 
-	<!-- Ubuntu Fonts -->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-	<!-- Icon Logo -->
-	<link class="logo" rel="icon" type="image/png" href="img/SIMS.png">
+<!-- Ubuntu Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
 
-	<!-- FontAwesome Library -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="css/test.css">
 
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Icon Logo -->
+<link class="logo" rel="icon" type="image/png" href="img/SIMS.png">
 
-	<!-- Popper JS -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<!-- FontAwesome Library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-	<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- Jquery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
 
-	<!-- NavBar -->
-	<header>
-		<nav id="topNav" class="navbar  fixed-top navbar-expand-md  navbar-light shadow p-3 mb-5 bg-white rounded">
-			<div class="container">
+  <!-- NavBar -->
+  <header>
 
-				<!-- Logo -->
-				<a class="navbar-brand font-weight-bolder" href="index.html">
-					<img src=img/SIMS.png height="35" class="d-inline-block align-top " alt="SIMS Logo">
-					<span class="font-weight-bolder headerText textDecoration">S I M S</span>
-				</a>
+    <nav id="topNav" class="navbar  fixed-top navbar-expand-md  navbar-light shadow p-3 mb-5 bg-white rounded">
+      <div class="container">
 
-				<!-- Toggler -->
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse text-center" id="navbarNav">
+        <!-- Logo -->
+        <a class="navbar-brand font-weight-bolder" href="index.html">
+          <img src=img/SIMS.png height="35" class="d-inline-block align-top " alt="SIMS Logo">
+          <span class="font-weight-bolder headerText textDecoration">S I M S</span>
+        </a>
 
-					<!-- Links -->
-					<ul class="navbar-nav ml-auto font-weight-bold textDecoration">
-						<li class="nav-item">
-							<a class="nav-link" href="index.html">Home</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link " href="Doctors.html">Doctors</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="Treatment.html">Treatments</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="LabTest.html">Lab Tests</a>
-						</li>
-						<li>
-							<a role="button" href="eClinic.html" class="btn btn-danger">eClinic</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
+        <!-- Toggler -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarNav">
 
-	</header>
+          <!-- Links -->
+          <ul class="navbar-nav ml-auto font-weight-bolder textDecoration">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="Doctors.html">Doctors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Treatment.html">Treatments</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="labTest.html">Lab Tests</a>
+            </li>
+            <li>
+              <a role="button" href="eClinic.html" class="btn btn-danger">eClinic</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
+  </header>
 
-	<!-- test section -->
-	<div class="container mb-5">
-		<div class="row mt-5">
-			<div class="col-md-12 mt-5">
+  <!-- Top Divider -->
+  <hr class="mt-5">
+<div class="container mt-5">
+<!-- test section -->
+<div class="container mb-3">
+	<div class="row">
+		<div class="col-12 classdiv">
+			<p class="title">List of Tests</p>
+		</div>
+	</div>
+</div>
 
-				<div class="container classdiv">
-					<div class="row">
-						<div class="col-md-12">
-							<p class="title">List of Tests</p>
-							<hr class="bg-info">
-						</div>
-					</div>
-				</div>
+<!-- Find test -->
 
-				<!-- Find test -->
-				<div class="container">
-					<div class="container m-auto">
-						<div class="row">
-							<div class="col-12 text-center bg-info text-light shadow rounded">
-								<p class="h3 mt-3 font-weight-bolder">Find Tests</p>
-								<p class="find-doctor-1 ">Get details of your required test from the list.</p>
-
-								<div class="input-group mb-4 d-flex justify-content-center ">
-									<input class="form-control search-input font-weight-bolder" style="max-width: 700px;" type="text"
-										placeholder="Search By Test Name">
-									<div class="input-group-append">
-										<button type="button" class="btn btn-danger search-btn font-weight-bolder">Search</button>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-12 d-flex flex-column align-items-center justify-content-center text-light">
-					<div class="container outer bg-light  rounded shadow">
-						<div class="row">
-							<div class="col-md-4 d-flex  align-items-center justify-content-center font-weight-bolder"> <i class="fa fa-angle-down mr-5 arrow" style="color: blue; cursor: pointer;"></i>Blood Test (CBC)
-							</div>
-							<div
-								class="col-md-4 outer d-flex flex-column align-items-center justify-content-center mt-0">
-								<p class="font-weight-bolder">Price: &nbsp; </p>
-								<p>Rs.&nbsp;500</p>
-							</div>
-							<div class="col-md-4 d-flex  align-items-center justify-content-center mt-0">
-								<button class="btn btn-danger font-weight-bolder">Book Now</button>
-							</div>
-						</div>
-					</div>
-					<div class="open">
-						<p>Blood count, laboratory test that determines the number of red blood cells (erythrocytes) and
-							white blood cells (leund Testskocytes) in a given volume of blood. The readings vary with
-							sex, age, physiological state, and general health, but the blood of a normal individual
-							contains on average 5,000,000 red cells and 7,000 white cells per cubic millimetre. A
-							differential blood count is the percentage of each type of white blood cell per 100 white
-							cells counted;</p>
-					</div>
-					<div class="container outer bg-light  rounded shadow">
-						<div class="row">
-							<div class="col-md-4 d-flex  align-items-center justify-content-center font-weight-bolder"><i class="fa fa-angle-down mr-5 arrow" style="color: blue; cursor: pointer;"></i>Blood Test (CBC)
-							</div>
-							<div
-								class="col-md-4 outer d-flex flex-column align-items-center justify-content-center mt-0">
-								<p class="font-weight-bolder">Price: &nbsp; </p>
-								<p>Rs.&nbsp;500</p>
-							</div>
-							<div class="col-md-4 d-flex  align-items-center justify-content-center mt-0">
-								<button class="btn btn-danger font-weight-bolder">Book Now</button>
-							</div>
-						</div>
-					</div>
-					<div class="open">
-						<p>Blood count, laboratory test that determines the number of red blood cells (erythrocytes) and
-							white blood cells (leund Testskocytes) in a given volume of blood. The readings vary with
-							sex, age, physiological state, and general health, but the blood of a normal individual
-							contains on average 5,000,000 red cells and 7,000 white cells per cubic millimetre. A
-							differential blood count is the percentage of each type of white blood cell per 100 white
-							cells counted;</p>
-					</div>
-					<div class="container outer bg-light  rounded shadow">
-						<div class="row">
-							<div class="col-md-4 d-flex  align-items-center justify-content-center font-weight-bolder"><i class="fa fa-angle-down mr-5 arrow" style="color: blue; cursor: pointer;"></i>Blood Test (CBC)
-							</div>
-							<div
-								class="col-md-4 outer d-flex flex-column align-items-center justify-content-center mt-0">
-								<p class="font-weight-bolder">Price: &nbsp; </p>
-								<p>Rs.&nbsp;500</p>
-							</div>
-							<div class="col-md-4 d-flex  align-items-center justify-content-center mt-0">
-								<button class="btn btn-danger font-weight-bolder">Book Now</button>
-							</div>
-						</div>
-					</div>
-					<div class="open">
-						<p>Blood count, laboratory test that determines the number of red blood cells (erythrocytes) and
-							white blood cells (leund Testskocytes) in a given volume of blood. The readings vary with
-							sex, age, physiological state, and general health, but the blood of a normal individual
-							contains on average 5,000,000 red cells and 7,000 white cells per cubic millimetre. A
-							differential blood count is the percentage of each type of white blood cell per 100 white
-							cells counted;</p>
-					</div>
-					<div class="container outer bg-light  rounded shadow">
-						<div class="row">
-							<div class="col-md-4 d-flex  align-items-center justify-content-center font-weight-bolder"><i class="fa fa-angle-down mr-5 arrowDown" style="color: blue; cursor: pointer;"></i> <i class="fa fa-angle-double-up mr-5 arrowUp" style=" color: blue; cursor: pointer; display: none;"></i>Blood Test (CBC)
-							</div>
-							<div
-								class="col-md-4 outer d-flex flex-column align-items-center justify-content-center mt-0">
-								<p class="font-weight-bolder">Price: &nbsp; </p>
-								<p>Rs.&nbsp;500</p>
-							</div>
-							<div class="col-md-4 d-flex  align-items-center justify-content-center mt-0">
-								<button class="btn btn-danger font-weight-bolder">Book Now</button>
-							</div>
-						</div>
-					</div>
-					<div class="open">
-						<p>Blood count, laboratory test that determines the number of red blood cells (erythrocytes) and
-							white blood cells (leund Testskocytes) in a given volume of blood. The readings vary with
-							sex, age, physiological state, and general health, but the blood of a normal individual
-							contains on average 5,000,000 red cells and 7,000 white cells per cubic millimetre. A
-							differential blood count is the percentage of each type of white blood cell per 100 white
-							cells counted;</p>
-					</div>
-					<div class="container outer bg-light  rounded shadow">
-						<div class="row">
-							<div class="col-md-4 d-flex  align-items-center justify-content-center font-weight-bolder"><i class="fa fa-angle-down mr-5 arrow" style="color: blue; cursor: pointer;"></i>Blood Test (CBC)
-							</div>
-							<div
-								class="col-md-4 outer d-flex flex-column align-items-center justify-content-center mt-0">
-								<p class="font-weight-bolder">Price: &nbsp; </p>
-								<p>Rs.&nbsp;500</p>
-							</div>
-							<div class="col-md-4 d-flex  align-items-center justify-content-center mt-0">
-								<button class="btn btn-danger font-weight-bolder">Book Now</button>
-							</div>
-						</div>
-					</div>
-					<div class="open">
-						<p>Blood count, laboratory test that determines the number of red blood cells (erythrocytes) and
-							white blood cells (leund Testskocytes) in a given volume of blood. The readings vary with
-							sex, age, physiological state, and general health, but the blood of a normal individual
-							contains on average 5,000,000 red cells and 7,000 white cells per cubic millimetre. A
-							differential blood count is the percentage of each type of white blood cell per 100 white
-							cells counted;</p>
-					</div>
-
-
+<div class="container">
+	<div class="row">
+		<div class="col-12 text-center bg-info text-light shadow rounded">
+			<p class="h3 mt-3 font-weight-bolder">Find Tests</p>
+			<p class="find-doctor-1 ">Get details of your required test from the list.</p>
+			<div class="input-group mb-4 d-flex justify-content-center ">
+				<input class="form-control search-input" style="max-width: 700px;" type="text"
+					placeholder="Search By Test Name">
+				<div class="input-group-append">
+					<button type="button" class="btn btn-danger search-btn font-weight-bolder">Search</button>
 				</div>
 			</div>
 		</div>
 	</div>
+</div>
 
 
-	<!-- JQuery -->
-	<script type="text/javascript">
-		$(document).ready(function () {
-			$(".outer").click(function () {
-				$(this).next().toggle(1000)
-				$(this).siblings(".outer").next().hide(1000);
-				$(".arrowDown").hide();
-				$(".arrowUp").show();
-			});
-		});
-	</script>
+<!-- All Tests Conatiner -->
+<div class="container mt-4 ">
+
+	<!-- Test-1 -->
+	<div class="row border shadow rounded bg-light mt-2 mb-3 pb-3">
+		<div class="col-md-4  d-flex justify-content-center align-items-center">
+			<p class="test-name">Blood Test (CBC)</p>
+		</div>
+
+		<div
+			class="col-md-4 d-flex flex-column justify-content-center align-items-center">
+			<p class=" mt-3">
+				<span class="font-weight-bolder test-price">Price: &nbsp;</span>
+				<br>
+				<span class="test-price-rate">Rs. 400</span>
+			</p>
+		</div>
+
+		<div class="col-md-3 d-flex justify-content-center align-items-center">
+			<button class="btn btn-danger test-book-btn">Book Now</button>
+		</div>
+	</div>
+
+	<!-- Test-2 -->
+	<div class="row border shadow rounded bg-light mb-3 pb-3">
+		<div class="col-md-4  d-flex justify-content-center align-items-center">
+			<p class="test-name">Sugar Test</p>
+		</div>
+
+		<div
+			class="col-md-4 d-flex flex-column justify-content-center align-items-center">
+			<p class=" mt-3">
+				<span class="font-weight-bolder test-price">Price: &nbsp;</span>
+				<br>
+				<span class="test-price-rate">Rs. 400</span>
+			</p>
+		</div>
+
+		<div class="col-md-3 d-flex justify-content-center align-items-center">
+			<button class="btn btn-danger test-book-btn">Book Now</button>
+		</div>
+	</div>
+
+	<!-- Test-3 -->
+	<div class="row border shadow rounded bg-light mb-3 pb-3">
+		<div class="col-md-4  d-flex justify-content-center align-items-center">
+			<p class="test-name">Cancer Test</p>
+		</div>
+
+		<div
+			class="col-md-4 d-flex flex-column justify-content-center align-items-center">
+			<p class=" mt-3">
+				<span class="font-weight-bolder test-price">Price: &nbsp;</span>
+				<br>
+				<span class="test-price-rate">Rs. 400</span>
+			</p>
+		</div>
+
+		<div class="col-md-3 d-flex justify-content-center align-items-center">
+			<button class="btn btn-danger test-book-btn">Book Now</button>
+		</div>
+	</div>
+	
+
+</div>
+	
+</div>
+
+</div>
+</div>
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
 
 </body>
-
 </html>
