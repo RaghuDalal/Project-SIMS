@@ -1,0 +1,69 @@
+Part - I (OPD)
+
+        1. Patient will enter the hospital and go to the OPD .
+
+        2. Patient will give details about himself/herself like :- 
+                a. Name
+                b. Age 
+                c. Gender
+                d. Address
+                e. Some preliminary Symptoms 
+
+        3. Then the OPD attendant will take some initial parameters like :-
+                a. Weight
+                b. Blood Pressure
+                c. Body Temperature
+
+        4. Then the attendent will fill the OPD Slip with additional details like :-
+                a. Date
+                b. Respected Doctor to meet (Department/Room NO)
+                c. Time Slot
+                d. Patient  No./ ID
+                d. OPD Consultation charges will be mentioned on the Slip 
+
+        5. Patient now has to pay the Consultation charges via :-
+                a. Online
+                b. Offline
+
+
+Part - II (Doctor)
+
+        1. Patient will arrive in the respective Department to consult with the Doctor with the OPD Slip.
+
+        2. As the patient meet the doctor and tells about his condition then the Doctor fills his slip ACCORDINGLY:-
+
+                a. Mild Symptoms -
+                        * Give Medicines and Date for further Consultation if the problem still persists -
+                                => In this case the patient will head to the medical shop and hope to get better .
+                                        +> If he gets well       ***[End of Story]***
+                                        +> If not then the Process repeats and his condition is upgraded to Moderate.
+
+                b. Moderate Symptoms - 
+                        * Doctor will direct the patient for a further diagnosis via a Lab Test with some initial medicines. [Part - III]
+                        * Doctor will also checkup once the lab report has come up and gave medicines ACCORDINGLY.
+                                => In this case the patient will head to the medical shop to take the medicines and hope to get better .
+                                        +> If he gets well       ***[End of Story]***
+                                        +> If not then the Process repeats and his condition is upgraded to Severe.
+
+                c. Severe Symptoms [Part - IV] - 
+                        * Doctor will advice the patient to get admitted in the Hospital for complete diagnosis .
+                        * Lab Test will be done on patient bed .
+                        * Docter wil fills the OPD slip with the details .
+
+
+Part - III (Lab Test)
+
+        1. Patient will go to the OPD and pay the Lab Test Charges :- 
+                a. Online
+                b. Offline
+
+        2. After successful payment he/she will get tested in the lab and :-
+                a. Test Report will be generated
+                b. Report will be attached with the respected patient OPD Slip
+
+        3. Patient will go back to the Doctor for further diagnosis {{ Part - II }}.
+
+
+Part - IV (Patient - Admit)
+
+
