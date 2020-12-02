@@ -1,8 +1,35 @@
-
-
 .container
 {
     user-select: none;
+}
+.right-data{
+    margin-left: 25%;
+}
+
+/* Making Responsive */
+@media screen and (max-width:768px){
+    .dr-img{
+        height: 10px;
+        width: 10px;
+    }
+    .dr-name{
+        font-size: 30px;
+    }
+    .dr-dep{
+        font-size: 25px;
+    }
+    .right-data{
+        margin-left: 12.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .nav-treat{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    }
 }
 
 /* Theme color #E60017 */
@@ -18,7 +45,6 @@ html {
     color: #E60017!important;
     transition: 1s;
 }
-
 
 body {
     font-family: "Ubuntu" !important;
@@ -257,13 +283,6 @@ footer {
     
     
 }
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
-
-body {
-  overflow-x: hidden;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-}
 
 /* Toggle Styles */
 
@@ -441,10 +460,6 @@ html {
     user-select: none;
 }
 
-
-body {
-    font-family: "Ubuntu" !important;
-}
 
 h3.sliderText {
     color: white;

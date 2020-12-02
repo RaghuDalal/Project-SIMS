@@ -81,10 +81,12 @@
       <!-- Top treatment bar -->
         <nav class="container-fluid navbar navbar-expand-lg navbar-light bg-light small-side-bar">
           <!-- toggle button -->
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <div class="d-flex justify-content-center align-items-center">
+          <button class="navbar-toggler mb-2 ml-2 mr-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fa fa-caret-down" aria-hidden="true"></i></span>
           </button>
-          <a class="navbar-brand" href="#">Treatments</a>
+          <p class="navbar-brand nav-treat" href="#">Treatments</p>
+        </div>
           <!-- links -->
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
@@ -121,7 +123,7 @@
         <!-- end of left bar -->
 
         <!-- right bar -->
-          <div class="col-9 mt-2" style="margin-left: 25%;">
+          <div class="col-9 mt-2 right-data">
             <div class="tab-content" id="v-pills-tabContent">
             <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
               <div class="mt-4 ml-auto">
@@ -144,12 +146,12 @@
                         </div>
                         <!-- doctr info -->
                         <div class="col-md-6 col-sm-12 mt-3 ">
-                          <span class="h2">Dr. Aditi Shah</span>
+                          <span class="dr-name">Dr. Aditi Shah</span>
                           <br>
                           <span class="dr-desc">Consultant - Pediatrics</span>
                           <br>
                           <br>
-                          <span class="h2">Department</span>
+                          <span class="dr-dep">Department</span>
                           <br>
                           <span class="dr-dep-desc">Pain Management</span>
                         </div>
