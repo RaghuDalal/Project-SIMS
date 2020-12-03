@@ -1,0 +1,40 @@
+                                        HOSPITAL DBMS
+
+    1. DOCTOR'S TABLE    
+
+        Master Doctor
+        1. deppt. -> id, name, status(is active)
+        2. specialist -->
+        3. qualification --> same above
+
+        Transition Doctor table (ref. one to two)
+        1. Dr registration id
+        2. name dr.
+        3. DOB
+        4. Gender
+        5. photo
+        6. Address (A1,A2, city) 
+        7. phone no.
+        8. emergency phone no. 
+        9. SOCIAL MEDIA LINKS
+
+        To Show Profile (Profile Type)
+        1. Short desc.
+        2. Long desc
+
+        Doctor Specialization
+        1. dr id
+        2. specialization id
+        3. Remarks
+        3. is Active
+        4. details
+
+        Doctor Qualification
+        1. dr id
+        2. Qualification id
+
+        Doctor key Achievement
+        1. dr id
+        2. title
+        3. thumb photo
+        4. photo
