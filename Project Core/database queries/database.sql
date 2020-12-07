@@ -173,3 +173,143 @@ else
 
 exec spDoctorInsert 'Harsh','2000-06-23','Male','www.google.com/img.jpg','Hisar',99999,88888,'harsh@gmail.com','2020-11-20',1,'AX23','fb.com/harsh','insta/harsh','linkedin/harsh','twitter/harsh',1
 select * from Doctor
+
+
+
+
+--OPD & Patient Tables
+
+
+
+
+
+--Staff Table
+create table Staff
+(
+id int primary key identity,
+name varchar(50),
+dob date,
+gender varchar(7),
+address varchar(100),
+city varchar(100),
+contactNo bigint,
+alternateNo bigint,
+email varchar(100),
+dateOfJoining date,
+staffID varchar(100),
+password varchar(100),
+isActive bit
+)
+select * from Staff
+ 
+
+--Disease Table
+create table Disease
+(
+id int primary key identity,
+Name varchar(50),
+isActive bit
+)
+select * from Disease
+
+
+--Patient Table
+create table Patient
+(
+id int primary key identity,
+uhid varchar(50),
+Name varchar(50),
+dob date,
+gender varchar(7),
+address varchar(100),
+city varchar(100),
+mobileNo bigint,
+alternteMobileNo bigint,
+remarks varchar(max),
+email varchar(100),
+password varchar(100),
+careTakerMobileNo bigint,
+careTakerName varchar(100),
+firstOPDdate date,
+isActive bit
+)
+select * from Patient
+
+
+--Patient Disease Table
+create table PatientDisease
+(
+id int primary key identity,
+diseaseID int references Disease(id),
+patientID int references Patient(id),
+isActive bit
+)
+select * from PatientDisease
+
+
+--OPD Plans Table
+create table OpdPlans
+(
+id int primary key identity,
+Name varchar(50),
+isActive bit
+)
+select * from OpdPlans
+
+
+--TimeSlot Table
+create table TimeSlot
+(
+id int primary key identity,
+name varchar(50),
+startTime time,
+endTime time,
+isActive bit
+)
+select * from TimeSlot
+
+
+--OPD Table
+create table OPD
+(
+id int primary key identity,
+opdNo int,
+date date,
+patientID int references Patient(id),
+opdPlanID int references OpdPlans(id),
+staffID int references Staff(id),
+timeSlotID int references TimeSlot(id),
+doctorID int references Doctor(id),
+patientDiseaseID int references PatientDisease(id),
+opdDate date,
+isActive bit
+)
+select * from OPD
+
+
+--Coupons Table
+create table Coupons
+(
+id int primary key identity,
+coupenCode varchar(50),
+mobileNo bigint,
+doctorID int references Doctor(id),
+status bit
+)
+select * from Coupons
+
+
+--OPD Payment
+create table OpdPayment
+(
+id int primary key identity,
+amount bigint,
+paymentMode varchar(50),
+staffID int references Staff(id),
+opdID int references OPD(id),
+couponID int references Coupons(id),
+discountAmount bigint,
+paymentAmount bigint,
+paymentDate date
+)
+select * from OpdPayment
