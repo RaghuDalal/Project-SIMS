@@ -1,5 +1,5 @@
-create database sims
-use sims
+create database dbSims;
+use dbSims
 
 
 
@@ -313,3 +313,35 @@ paymentAmount bigint,
 paymentDate date
 )
 select * from OpdPayment
+
+
+--SP Queries
+
+
+--Staff SP
+
+CREATE PROCEDURE spStaffInsert(@name varchar(100),@dob date,@gender varchar(7),@address varchar(100),@city varchar(100),@contactno bigint,@alternateno bigint,@email varchar(100),@dateofjoining date,@staffid varchar(100),@password varchar(100),@isactive bit)
+as
+if exists ( select *from Staff where  contactNo=@contactno and alternateNo=@alternateno and email=@email and staffID=@staffid)
+	begin
+	select 'Data already exists!' as msg
+	end
+else
+	begin
+	insert into Staff(name,dob,gender,address,city,contactNo,alternateNo,email,dateOfJoining,staffID,password,
+	isActive)
+	values(@name,@dob,@gender,@address,@city,@contactno,@alternateno,@email,@dateofjoining,@staffid ,@password,@isactive)
+	select 'Staff Profile has been created successfully!' as msg
+	end
+
+exec spStaffInsert 'Harsh','2000-06-23','Male','Kaimari Road ','Hisar',99999,88888,'harsh@gmail.com','2020-11-20',1,'pass123',1
+
+
+--Disease SP
+
+create proc spDiseaseInsert(@name varchar(50),@isactive bit)
+as 
+insert into Disease(Name,isActive) values(@name,@isactive)
+select 'Data Inserted Successfully' as msg
+
+exec spDiseaseInsert 'Ravi',1;
