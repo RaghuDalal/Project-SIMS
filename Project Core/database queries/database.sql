@@ -392,3 +392,57 @@ select 'Data Inserted Successfully' as msg
 exec spOpdplanInsert 'Ravi',1;
 
 select * from Opdplans;
+
+
+
+--OPD SP
+--ask unique
+
+/*
+create proc spOPDInsert(@opdNo int,@date date,@patientID int,@opdPlanID int,@staffID int,@timeSlotID int,@doctorID int ,@patientDiseaseID int,@opdDate date,@isactive bit)
+as
+if exists (select * from OPD where patientID=@patientID)
+	begin
+	select 'Data already exists!' as msg
+	end
+else
+	begin
+	insert into OPD(coupenCode,mobileNo,doctorID,status) values(@coupenCode,@mobileNo,@doctorID,@status)
+	select 'OPD has been submitted successfully!' as msg
+	end
+	*/
+
+
+--Coupon SP
+
+
+create proc spCouponInsert(@coupenCode varchar(50),@mobileNo bigint,
+@doctorID int,@status bit)
+as
+if exists (select * from Coupons where mobileNo=@mobileNo)
+	begin
+	select 'Data already exists!' as msg
+	end
+else
+	begin
+	insert into Coupons(coupenCode,mobileNo,doctorID,status) values(@coupenCode,@mobileNo,@doctorID,@status)
+	select 'Coupon has been applied successfully!' as msg
+	end
+
+
+
+--OPD Payment SP
+
+/*
+create proc spOPDIPaymentnsert(@amount bigint,@paymentMode varchar(50),@staffID int,@opdID int,@couponID int,@discountAmount bigint,@paymentAmount bigint,@paymentDate date)
+as
+if exists (select * from OpdPayment where )
+	begin
+	select 'Data already exists!' as msg
+	end
+else
+	begin
+	insert into OpdPayment(amount,paymentMode,staffID,opdID,couponID,discountAmount,paymentAmount,paymentDate) values(@amount,@paymentMode,@staffID,@opdID,@couponID,@discountAmount,@paymentAmount,@paymentDate)
+	select 'Payment has been paid successfully!' as msg
+	end
+*/
