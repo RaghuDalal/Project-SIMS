@@ -345,3 +345,21 @@ insert into Disease(Name,isActive) values(@name,@isactive)
 select 'Data Inserted Successfully' as msg
 
 exec spDiseaseInsert 'Ravi',1;
+
+
+--Patient SP
+
+create proc spPatientInsert(@uhid varchar(50),@name varchar(50),@dob date,@gender varchar(7),@address varchar(100),@city varchar(100),@contactno bigint,@alternateno bigint,@remarks varchar(max),@email varchar(100),@password varchar(100),@caretakermobileno bigint,@caretakername varchar(100),@firstOPDdate date,@isactive bit)
+as
+if exists (select * from Patient where mobileNo=@contactno and alternteMobileNo=@alternateno and email=@email and uhid=@uhid)
+	begin
+	select 'Data already exists!' as msg
+	end
+else
+	begin
+	insert into Patient(uhid,name,dob,gender,address,city,mobileNo,alternteMobileNo,remarks,email,password,caretakermobileno,caretakername,firstOPDdate,isactive) values(@uhid,@name,@dob,@gender,@address,@city,@contactno ,@alternateno,@remarks,@email,@password,@caretakermobileno,@caretakername,@firstOPDdate,@isactive)
+	select 'Patient Profile has been created successfully!' as msg
+	end
+	
+exec spPatientInsert 1,'Harsh','2010-06-03','male','Bank Road ','Fatehabad',45645,88453888,'remarks','harsh@gmail.com','pas468723',14645,'rv','2010-06-03',1
+select * from Patient
