@@ -1,8 +1,21 @@
-/* Theme color #E60017 */
+/* Primary color #006038 */
+/* Secondary color #ED3237 */
 
 html {
     scroll-behavior: smooth;
   }
+
+.pcolor {
+    background-color: #006038;
+}
+
+.scolor {
+    background-color: #ED3237;
+}
+
+.lLogo {
+   
+}
   
 .navbar-nav .nav-link {
     color: rgba(0, 0, 0, 1) !important;
@@ -50,7 +63,7 @@ span.headerText {
 
 .segment-one h2:before {
     content: '|';
-    color: #E60017;
+    color: #ED3237;
     padding-right: 10px;
 }
 
@@ -63,7 +76,7 @@ span.headerText {
 
 .segment-two h2:before {
     content: '|';
-    color: #E60017;
+    color: #ED3237;
     padding-right: 10px;
 }
 
@@ -81,7 +94,7 @@ span.headerText {
 }
 
 .segment-two ul li a:hover {
-    color: #E60017 !important;
+    color: #ED3237 !important;
 
 }
 
@@ -93,12 +106,12 @@ span.headerText {
 
 .segment-three h2:before {
     content: '|';
-    color: #E60017;
+    color: #ED3237;
     padding-right: 10px;
 }
 
 .segment-three a {
-    background: #0069d9;
+    background:#ED3237;
     width: 40px;
     height: 40px;
     display: inline-block;
@@ -119,7 +132,7 @@ span.headerText {
 
 .segment-four h2:before {
     content: '|';
-    color: #E60017;
+    color: #ED3237;
     padding-right: 10px;
 }
 
@@ -143,7 +156,7 @@ span.headerText {
 
 .segment-four form input[type="submit"] {
     outline: none;
-    background: #0069d9;
+    background: #ED3237;
     border: none;
     border-radius: 50px;
     color: white;
@@ -152,7 +165,7 @@ span.headerText {
 
 .segment-four form input[type="submit"]:focus {
     outline: none;
-    background: #0069d9;
+    background: red;
     border: none;
     border-radius: 50px;
     color: white;

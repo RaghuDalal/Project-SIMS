@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jmcAPI", "jmcAPI\jmcAPI.csproj", "{28438043-6E0E-4B8F-9B8D-C113E82BA63D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28438043-6E0E-4B8F-9B8D-C113E82BA63D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28438043-6E0E-4B8F-9B8D-C113E82BA63D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28438043-6E0E-4B8F-9B8D-C113E82BA63D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28438043-6E0E-4B8F-9B8D-C113E82BA63D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C26501D9-77E4-4DBE-8CCF-6203CECAE907}
+	EndGlobalSection
+EndGlobal

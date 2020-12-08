@@ -1,0 +1,5 @@
+C:\Users\raghv\source\repos\jmcAPI\jmcAPI\obj\Debug\netcoreapp3.1\jmcAPI.csprojAssemblyReference.cache
+C:\Users\raghv\source\repos\jmcAPI\jmcAPI\obj\Debug\netcoreapp3.1\jmcAPI.AssemblyInfoInputs.cache
+C:\Users\raghv\source\repos\jmcAPI\jmcAPI\obj\Debug\netcoreapp3.1\jmcAPI.AssemblyInfo.cs
+C:\Users\raghv\source\repos\jmcAPI\jmcAPI\obj\Debug\netcoreapp3.1\jmcAPI.csproj.CoreCompileInputs.cache
+C:\Users\raghv\source\repos\jmcAPI\jmcAPI\obj\Debug\netcoreapp3.1\jmcAPI.MvcApplicationPartsAssemblyInfo.cache
