@@ -363,3 +363,6 @@ else
 	
 exec spPatientInsert 1,'Harsh','2010-06-03','male','Bank Road ','Fatehabad',45645,88453888,'remarks','harsh@gmail.com','pas468723',14645,'rv','2010-06-03',1
 select * from Patient
+
+
+--OPD SP
