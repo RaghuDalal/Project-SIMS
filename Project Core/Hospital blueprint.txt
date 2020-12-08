@@ -1,0 +1,53 @@
+1. Website
+   About Us --> Vision Mission
+   Doctor. profile
+   Department
+   Diagnosis
+   Lab Test List
+   Full Address
+   Contact Number
+   Email Id
+   Treatment
+   Hospital Profile
+   Enquiry Form
+   
+   
+2. Software
+   Patient profile
+   Doctor profile   
+   OPD (online/offline) 
+   Time slot
+   General OPD Price
+   Emergency OPD price
+   Staff 
+   Discount Coupon
+   OPD payment
+
+
+3. Social media marketing
+   Facebook
+   Twitter
+   Linkdin
+   Pages
+   Youtube
+   Instagram
+   Paid promotion
+   Promotional post
+
+
+4. Company Registration Certificate
+   Company Pan Card   
+   GST Certificate
+   Director Aadhar Card
+   Mobile Number
+   Email Id
+   Cancel Cheque
+   Director Name
+   Gateway Agreement Documents
+   
+
+
+
+
+
+
