@@ -365,4 +365,30 @@ exec spPatientInsert 1,'Harsh','2010-06-03','male','Bank Road ','Fatehabad',4564
 select * from Patient
 
 
---OPD SP
+--Patient  Disease SP
+
+/*
+
+create proc spDiseaseInsert(@diseaseid int,@patientid int,@isactive bit)
+as
+insert into PatientDisease(diseaseID,patientID,isActive)
+values(@diseaseid,@patientid,@isactive)
+select 'Disease Inserted Successfully!' as msg
+
+exec spDiseaseInsert
+
+select * from PatientDisease
+
+*/
+
+
+--OPD Plans SP
+
+create proc spOpdplanInsert(@name varchar(50),@isactive bit)
+as 
+insert into OpdPlans(Name,isActive) values(@name,@isactive)
+select 'Data Inserted Successfully' as msg
+
+exec spOpdplanInsert 'Ravi',1;
+
+select * from Opdplans;
