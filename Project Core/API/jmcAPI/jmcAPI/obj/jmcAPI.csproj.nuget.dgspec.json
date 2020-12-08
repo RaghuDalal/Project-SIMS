@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\raghv\\source\\repos\\jmcAPI\\jmcAPI\\jmcAPI.csproj": {}
+    "C:\\Users\\raghv\\Desktop\\Project-SIMS\\Project Core\\API\\jmcAPI\\jmcAPI\\jmcAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\raghv\\source\\repos\\jmcAPI\\jmcAPI\\jmcAPI.csproj": {
+    "C:\\Users\\raghv\\Desktop\\Project-SIMS\\Project Core\\API\\jmcAPI\\jmcAPI\\jmcAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\raghv\\source\\repos\\jmcAPI\\jmcAPI\\jmcAPI.csproj",
+        "projectUniqueName": "C:\\Users\\raghv\\Desktop\\Project-SIMS\\Project Core\\API\\jmcAPI\\jmcAPI\\jmcAPI.csproj",
         "projectName": "jmcAPI",
-        "projectPath": "C:\\Users\\raghv\\source\\repos\\jmcAPI\\jmcAPI\\jmcAPI.csproj",
+        "projectPath": "C:\\Users\\raghv\\Desktop\\Project-SIMS\\Project Core\\API\\jmcAPI\\jmcAPI\\jmcAPI.csproj",
         "packagesPath": "C:\\Users\\raghv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\raghv\\source\\repos\\jmcAPI\\jmcAPI\\obj\\",
+        "outputPath": "C:\\Users\\raghv\\Desktop\\Project-SIMS\\Project Core\\API\\jmcAPI\\jmcAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\raghv\\AppData\\Roaming\\NuGet\\NuGet.Config",
